@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }, 40);
 
   //click for killer block
-  const blocks = document.getElementsByClassName('block');
+  const blocks = Array.from(document.getElementsByClassName('block'));
   blocks.forEach((ele) => {
     ele.addEventListener('click', function () {
       blink(this);
