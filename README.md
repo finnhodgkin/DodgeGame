@@ -2,6 +2,6 @@
 
 Still to do
 --
--Add things to dodge
--Add collision detection to those things.
--Test until fun.
+* Add things to dodge
+* Add collision detection to those things.
+* Test until fun.
